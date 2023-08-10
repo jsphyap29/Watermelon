@@ -1,0 +1,419 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@font-face {
+    font-family: Myriad;
+    src: url(./fonts/Myriad\ Pro\ Regular.ttf);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Myriad';
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    max-width: 1104px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.navbar {
+    padding-top: 40px;
+    background-color: #446e46;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.text-logo {
+    font-size: 37.22 px;
+}
+
+.nav-logo img{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.nav-logo a {
+    margin: 0 20px 0 5px;
+    
+}
+
+.nav-wrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.navbar a {
+    color: white;
+    letter-spacing: -1px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 200ms ease-in-out;
+}
+
+.navbar a:hover {
+    color: grey;
+}
+
+
+
+.first-sec {
+    background-color: #446e46;
+
+    text-align: center;
+    padding: 100px 0;
+}
+
+.first-sec h1 {
+    font-size: 45px;
+}
+
+
+
+.second-sec {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.second-sec h2 {
+    font-size: 45px;
+}
+
+.second-sec p {
+    margin-bottom: 20px;
+    color: #dfdfdf;
+    font-size: 25px;
+}
+
+.third-sec {
+    background-color: #2b342b;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.third-sec h2 {
+    font-size: 45px;
+}
+
+.third-sec p {
+    color: #FFFF;
+    font-size: 25px;
+    margin-bottom: 75px;
+}
+
+.sec-four {
+    background-color: #e9ede9;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sec-four h2 {
+    font-size: 45px;
+}
+
+.sec-four p {
+    font-size: 25px;
+}
+
+.fourth-head p {
+    color: #989796;
+    margin-bottom: 100px;
+}
+
+.heading-four {
+    padding-top: 100px;
+}
+
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+
+.card-cont {
+    background-color: #e2e4e1;
+    padding: 35px 75px;
+}
+
+.head-card {
+    color: #7d7b7b;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.price {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #b38e48;
+}
+
+.start {
+    color: #4e4e4e;
+    font-size: 32px;
+}
+
+.view-details {
+    color: white;
+    background-color: #71ae5a;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+
+
+.melonthree {
+    width: 100%;
+    max-width: 500px;
+}
+
+.buy-now {
+    border: 3px solid white;
+    padding: 8px 10px;
+    transition: all 200ms ease-in-out;
+
+}
+
+.buy-now:hover {
+    background-color: #304d31;
+    border: 3px solid #b9a7a7;
+}
+
+.heading,
+.heading-three {
+    color: white;
+    font-size: 30px;
+    font-family: Myriad;
+    margin-bottom: 20px;
+}
+
+.heading-two,
+.heading-four {
+    color: #4e4e4e;
+    font-size: 30px;
+    font-family: Myriad;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #e9ede9;
+}
+
+.footer-cont ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-cont {
+    padding-bottom: 100px;
+}
+
+
+.footer-cont a {
+    text-decoration: none;
+    color: #747373;
+    transition: all 200ms ease-in-out;
+}
+
+.footer-cont a:hover {
+    color: #363636;
+}
+
+.footer-cont p {
+    color: #c5c5c2;
+}
+
+
+
+span {
+    color: #afacac;
+}
+
+@media (max-width: 900px) {
+    .footer-cont ul, .footer-cont p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul{
+        display: none;
+    }
+
+    .nav-logo {
+       margin: 0 auto;
+    }
+
+    .first-sec h1, .second-sec h2, .third-sec h2, .sec-four h2 {
+        font-size: 30px;
+    }
+
+    .first-sec p, .second-sec p, .third-sec p, .fourth-head p {
+        font-size: 15px;
+    }
+    
+}
+
+
+@media (max-width: 500px) {
+    .first-sec h1, .second-sec h2, .third-sec h2, .sec-four h2 {
+        font-size: 25px;
+    }
+
+    .first-sec p, .second-sec p, .third-sec p, .fourth-head p {
+        font-size: 10px;
+    }
+}
+
